@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "VkClone"
 include(":app")
+include(":core")

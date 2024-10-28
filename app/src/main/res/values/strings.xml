@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">VkClone</string>
+    <integer name="com_vk_sdk_AppId">52567596</integer>
 </resources>
