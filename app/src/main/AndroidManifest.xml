@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name=".VkApp"
         android:allowBackup="true"
@@ -14,7 +16,7 @@
         android:theme="@style/Theme.VkClone"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.feature_auth.ui.AuthActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.VkClone">
@@ -24,6 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.MainActivity" />
     </application>
 
 </manifest>

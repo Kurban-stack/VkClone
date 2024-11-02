@@ -52,6 +52,9 @@ android {
 }
 
 dependencies {
+    implementation(project(":core"))
+    implementation(project(":feature-auth"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.ui)
@@ -76,6 +79,7 @@ dependencies {
     //retrofit
     implementation(libs.retrofit)
     implementation(libs.logging.interceptor)
+    implementation(libs.material3)
     //Gson
     implementation(libs.converter.gson)
     testImplementation(libs.junit)
